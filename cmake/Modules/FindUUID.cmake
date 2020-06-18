@@ -11,7 +11,7 @@ if(WIN32)
 
   if(UUID_LIBRARIES)
     set(UUID_FOUND true)
-    set(UUID_LIBRARIES Rpcrt4.lib)
+    set(UUID_LIBRARIES Rpcrt4)
   endif(UUID_LIBRARIES)
 
 else()
